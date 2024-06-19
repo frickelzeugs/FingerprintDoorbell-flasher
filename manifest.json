@@ -1,9 +1,9 @@
 {
-  "name": "ESPHome",
+  "name": "FingerprintDoorbell",
   "builds": [
     {
       "chipFamily": "ESP32",
-      "improv": true,
+      "new_install_prompt_erase": true,
       "parts": [
         { "path": "esp32/bootloader_dio_40m.bin", "offset": 4096 },
         { "path": "esp32/partitions.bin", "offset": 32768 },
